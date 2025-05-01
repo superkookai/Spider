@@ -6,17 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF43A16E2DC314BB00293397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF43A16A2DC314BB00293397 /* Assets.xcassets */; };
+		EF43A16F2DC314BB00293397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A16B2DC314BB00293397 /* ContentView.swift */; };
+		EF43A1702DC314BB00293397 /* SpiderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A16C2DC314BB00293397 /* SpiderApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EF43A15C2DC314AE00293397 /* Spider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF43A16A2DC314BB00293397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF43A16B2DC314BB00293397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF43A16C2DC314BB00293397 /* SpiderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiderApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EF43A15E2DC314AE00293397 /* Spider */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Spider;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EF43A1592DC314AE00293397 /* Frameworks */ = {
@@ -32,7 +33,7 @@
 		EF43A1532DC314AE00293397 = {
 			isa = PBXGroup;
 			children = (
-				EF43A15E2DC314AE00293397 /* Spider */,
+				EF43A16D2DC314BB00293397 /* Spider */,
 				EF43A15D2DC314AE00293397 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +44,16 @@
 				EF43A15C2DC314AE00293397 /* Spider.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF43A16D2DC314BB00293397 /* Spider */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A16B2DC314BB00293397 /* ContentView.swift */,
+				EF43A16C2DC314BB00293397 /* SpiderApp.swift */,
+				EF43A16A2DC314BB00293397 /* Assets.xcassets */,
+			);
+			path = Spider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +70,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EF43A15E2DC314AE00293397 /* Spider */,
 			);
 			name = Spider;
 			packageProductDependencies = (
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF43A16E2DC314BB00293397 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF43A16F2DC314BB00293397 /* ContentView.swift in Sources */,
+				EF43A1702DC314BB00293397 /* SpiderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
